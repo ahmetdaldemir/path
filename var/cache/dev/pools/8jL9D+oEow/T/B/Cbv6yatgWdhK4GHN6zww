@@ -1,0 +1,68 @@
+<?php //App%255CController%255CCustomerController%2523show
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['FOS\\RestBundle\\Controller\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\Get')),
+        clone ($p['FOS\\RestBundle\\Controller\\Annotations\\View'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\View')),
+        clone ($p['Swagger\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Annotations\\Response')),
+        clone ($p['Swagger\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Context')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/{id}',
+            ],
+            'name' => [
+                'customer_show',
+            ],
+            'requirements' => [
+                [
+                    'id' => '\\d+',
+                ],
+            ],
+            'methods' => [
+                [
+                    'GET',
+                ],
+            ],
+        ],
+        'stdClass' => [
+            'response' => [
+                2 => 202,
+            ],
+            'description' => [
+                2 => 'Show customer\'s details',
+            ],
+            '_context' => [
+                2 => $o[3],
+            ],
+            'filename' => [
+                3 => '/home/ahmet.daldemir/PhpstormProjects/untitled2/symfony-4-restful-api-example/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                3 => 977,
+            ],
+            'method' => [
+                3 => 'Annotation',
+            ],
+            'class' => [
+                3 => 'DocParser',
+            ],
+            'namespace' => [
+                3 => 'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                3 => [
+                    $o[2],
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[2],
+    ],
+    []
+); }];

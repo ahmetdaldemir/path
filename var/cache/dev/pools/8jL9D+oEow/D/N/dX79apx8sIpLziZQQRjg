@@ -1,0 +1,3 @@
+<?php //Symfony%255CBundle%255CSecurityBundle%255CDebug%255CTraceableFirewallListener
+
+return [PHP_INT_MAX, []];

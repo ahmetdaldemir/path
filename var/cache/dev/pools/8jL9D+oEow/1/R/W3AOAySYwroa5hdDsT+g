@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CHttpFoundation%255CRequestStack%2523getCurrentRequest
+
+return [PHP_INT_MAX, []];

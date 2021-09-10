@@ -1,0 +1,3 @@
+<?php //Symfony%255CBundle%255CSecurityBundle%255CDebug%255CTraceableFirewallListener%2523getWrappedListeners
+
+return [PHP_INT_MAX, []];

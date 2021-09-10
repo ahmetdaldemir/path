@@ -1,0 +1,3 @@
+<?php //Doctrine%255CBundle%255CMigrationsBundle%255CDoctrineMigrationsBundle
+
+return [PHP_INT_MAX, []];

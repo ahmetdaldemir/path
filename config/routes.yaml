@@ -1,0 +1,36 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+users_index:
+      path:     /user/index
+      controller: App\Controller\UserController::index
+users_login:
+      path:     /user/login
+      controller: App\Controller\UserController::login
+      methods: POST
+customers_login:
+      path:     /customer/login
+      controller: App\Controller\CustomerController::token
+      methods: POST
+customers_index:
+      path:     /customer/index
+      controller: App\Controller\CustomerController::index
+customers_create:
+      path:     /customer/create
+      controller: App\Controller\CustomerController::create
+orders_create:
+      path: /order/create
+      controller: App\Controller\OrderController::create
+      methods: POST
+orders_index:
+      path: /order/index
+      controller: App\Controller\OrderController::index
+      methods: GET
+orders_show:
+      path: /order/show
+      controller: App\Controller\OrderController::show
+      methods: POST
+orders_udpate:
+      path: /order/update
+      controller: App\Controller\OrderController::update
+      methods: POST

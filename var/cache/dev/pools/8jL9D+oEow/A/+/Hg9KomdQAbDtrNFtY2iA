@@ -1,0 +1,51 @@
+<?php //App%255CController%255CProductController%2523edit
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['FOS\\RestBundle\\Controller\\Annotations\\Put'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\Put')),
+        clone ($p['FOS\\RestBundle\\Controller\\Annotations\\View'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\View')),
+        clone ($p['Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/{productd}',
+            ],
+            'name' => [
+                'product_edit',
+            ],
+            'requirements' => [
+                [
+                    'productId' => '\\d+',
+                ],
+            ],
+            'methods' => [
+                [
+                    'PUT',
+                ],
+            ],
+        ],
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter' => [
+            'name' => [
+                2 => 'product',
+            ],
+            'options' => [
+                2 => [
+                    'validator' => [
+                        'groups' => 'Create',
+                    ],
+                ],
+            ],
+            'converter' => [
+                2 => 'fos_rest.request_body',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[2],
+    ],
+    []
+); }];

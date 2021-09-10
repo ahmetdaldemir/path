@@ -1,0 +1,3 @@
+<?php //SplObjectStorage%2523offsetGet
+
+return [PHP_INT_MAX, []];

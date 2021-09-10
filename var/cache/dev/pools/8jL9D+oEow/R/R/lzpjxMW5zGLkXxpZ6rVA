@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CDependencyInjection%255CConfig%255CContainerParametersResource%2523__toString
+
+return [PHP_INT_MAX, []];

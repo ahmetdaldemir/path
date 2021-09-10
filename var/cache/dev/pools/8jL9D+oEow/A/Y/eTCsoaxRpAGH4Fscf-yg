@@ -1,0 +1,3 @@
+<?php //FOS%255CRestBundle%255CRequest%255CParamFetcher%2523resolveValue
+
+return [PHP_INT_MAX, []];

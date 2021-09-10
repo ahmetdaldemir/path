@@ -1,0 +1,3 @@
+<?php //Lexik%255CBundle%255CJWTAuthenticationBundle%255CLexikJWTAuthenticationBundle%2523build
+
+return [PHP_INT_MAX, []];

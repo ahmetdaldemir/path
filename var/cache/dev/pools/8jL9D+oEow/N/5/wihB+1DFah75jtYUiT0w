@@ -1,0 +1,3 @@
+<?php //Symfony%255CBundle%255CWebServerBundle%255CWebServerBundle
+
+return [PHP_INT_MAX, []];

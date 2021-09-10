@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CStopwatch%255CStopwatch%2523stop
+
+return [PHP_INT_MAX, []];

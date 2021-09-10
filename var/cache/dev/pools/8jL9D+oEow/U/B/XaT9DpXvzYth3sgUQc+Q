@@ -1,0 +1,3 @@
+<?php //Symfony%255CBundle%255CFrameworkBundle%255CRouting%255CRouter
+
+return [PHP_INT_MAX, []];

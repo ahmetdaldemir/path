@@ -1,0 +1,3 @@
+<?php //Symfony%255CBundle%255CSecurityBundle%255CSecurity%255CFirewallMap%2524container
+
+return [PHP_INT_MAX, []];

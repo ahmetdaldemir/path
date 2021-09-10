@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CDependencyInjection%255CArgument%255CRewindableGenerator
+
+return [PHP_INT_MAX, []];

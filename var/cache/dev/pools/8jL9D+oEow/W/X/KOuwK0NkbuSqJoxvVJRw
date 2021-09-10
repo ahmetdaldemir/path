@@ -1,0 +1,3 @@
+<?php //Monolog%255CHandler%255CNullHandler
+
+return [PHP_INT_MAX, []];

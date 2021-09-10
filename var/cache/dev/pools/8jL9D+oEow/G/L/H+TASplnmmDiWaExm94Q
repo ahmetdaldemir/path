@@ -1,0 +1,3 @@
+<?php //Monolog%255CProcessor%255CPsrLogMessageProcessor
+
+return [PHP_INT_MAX, []];

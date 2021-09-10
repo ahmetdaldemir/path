@@ -1,0 +1,39 @@
+<?php //App%255CEntity%255CCustomer
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Entity')),
+        clone ($p['Doctrine\\ORM\\Mapping\\HasLifecycleCallbacks'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\HasLifecycleCallbacks')),
+        clone ($p['Hateoas\\Configuration\\Annotation\\Relation'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Hateoas\\Configuration\\Annotation\\Relation')),
+        clone ($p['Hateoas\\Configuration\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Hateoas\\Configuration\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'repositoryClass' => [
+                'App\\Repository\\CustomerRepository',
+            ],
+            'name' => [
+                2 => 'self',
+                'customer_show',
+            ],
+            'href' => [
+                2 => $o[3],
+            ],
+            'parameters' => [
+                3 => [
+                    'id' => 'expr(object.getId())',
+                ],
+            ],
+            'absolute' => [
+                3 => true,
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[2],
+    ],
+    []
+); }];

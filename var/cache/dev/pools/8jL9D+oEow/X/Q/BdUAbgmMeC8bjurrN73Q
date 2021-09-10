@@ -1,0 +1,3 @@
+<?php //Symfony%255CBundle%255CFrameworkBundle%255CFrameworkBundle
+
+return [PHP_INT_MAX, []];

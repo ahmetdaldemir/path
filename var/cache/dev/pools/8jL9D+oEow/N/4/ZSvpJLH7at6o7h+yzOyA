@@ -1,0 +1,3 @@
+<?php //Monolog%255CFormatter%255CLineFormatter%2524allowInlineLineBreaks
+
+return [PHP_INT_MAX, []];

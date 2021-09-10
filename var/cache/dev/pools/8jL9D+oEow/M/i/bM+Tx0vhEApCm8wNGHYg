@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CEventDispatcher%255CDebug%255CTraceableEventDispatcher%2523postDispatch
+
+return [PHP_INT_MAX, []];

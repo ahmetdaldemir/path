@@ -1,0 +1,3 @@
+<?php //Monolog%255CLogger%2523addDebug
+
+return [PHP_INT_MAX, []];

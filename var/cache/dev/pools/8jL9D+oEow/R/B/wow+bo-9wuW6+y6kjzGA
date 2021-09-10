@@ -1,0 +1,3 @@
+<?php //Monolog%255CHandler%255CAbstractProcessingHandler%2523handle
+
+return [PHP_INT_MAX, []];

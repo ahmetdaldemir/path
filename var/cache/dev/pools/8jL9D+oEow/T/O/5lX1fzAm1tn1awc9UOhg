@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CRouting%255CRouteCollection%2523addDefaults
+
+return [PHP_INT_MAX, []];

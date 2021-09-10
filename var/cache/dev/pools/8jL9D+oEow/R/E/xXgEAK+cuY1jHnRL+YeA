@@ -1,0 +1,3 @@
+<?php //Monolog%255CHandler%255CStreamHandler
+
+return [PHP_INT_MAX, []];

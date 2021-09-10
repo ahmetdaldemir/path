@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CSecurity%255CHttp%255CLogout%255CLogoutUrlGenerator%2524listeners
+
+return [PHP_INT_MAX, []];

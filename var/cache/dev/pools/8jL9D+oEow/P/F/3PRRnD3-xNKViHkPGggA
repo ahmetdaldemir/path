@@ -1,0 +1,76 @@
+<?php //App%255CController%255CCustomerController%2523create
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['FOS\\RestBundle\\Controller\\Annotations\\Post'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\Post')),
+        clone ($p['FOS\\RestBundle\\Controller\\Annotations\\View'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('FOS\\RestBundle\\Controller\\Annotations\\View')),
+        clone ($p['Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter')),
+        clone ($p['Swagger\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Annotations\\Response')),
+        clone ($p['Swagger\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Swagger\\Context')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/create',
+            ],
+            'name' => [
+                'customer_create',
+            ],
+            'methods' => [
+                [
+                    'POST',
+                ],
+            ],
+        ],
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\ParamConverter' => [
+            'name' => [
+                2 => 'customer',
+            ],
+            'class' => [
+                2 => 'array',
+            ],
+            'converter' => [
+                2 => 'fos_rest.request_body',
+            ],
+        ],
+        'stdClass' => [
+            'response' => [
+                3 => 201,
+            ],
+            'description' => [
+                3 => 'Create new customer',
+            ],
+            '_context' => [
+                3 => $o[4],
+            ],
+            'filename' => [
+                4 => '/home/ahmet.daldemir/PhpstormProjects/untitled2/symfony-4-restful-api-example/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                4 => 977,
+            ],
+            'method' => [
+                4 => 'Annotation',
+            ],
+            'class' => [
+                4 => 'DocParser',
+            ],
+            'namespace' => [
+                4 => 'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                4 => [
+                    $o[3],
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[2],
+        $o[3],
+    ],
+    []
+); }];

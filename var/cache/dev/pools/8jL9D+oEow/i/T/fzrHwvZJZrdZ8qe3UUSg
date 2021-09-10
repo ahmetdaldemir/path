@@ -1,0 +1,3 @@
+<?php //JMS%255CSerializerBundle%255CJMSSerializerBundle%2523build
+
+return [PHP_INT_MAX, []];

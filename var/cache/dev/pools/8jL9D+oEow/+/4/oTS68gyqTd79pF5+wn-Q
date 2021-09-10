@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CConfig%255CResource%255CGlobResource%2523computeHash
+
+return [PHP_INT_MAX, []];

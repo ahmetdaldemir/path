@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CConfig%255CResource%255CGlobResource%2524recursive
+
+return [PHP_INT_MAX, []];

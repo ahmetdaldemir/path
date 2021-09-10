@@ -1,0 +1,3 @@
+<?php //FOS%255CRestBundle%255CFOSRestBundle%2523build
+
+return [PHP_INT_MAX, []];

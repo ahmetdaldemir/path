@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CRouting%255CRouter%2523getConfigCacheFactory
+
+return [PHP_INT_MAX, []];

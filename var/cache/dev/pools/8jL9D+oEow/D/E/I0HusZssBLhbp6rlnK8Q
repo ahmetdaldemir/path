@@ -1,0 +1,3 @@
+<?php //Symfony%255CComponent%255CHttpKernel%255CBundle%255CBundle%2523parseClassName
+
+return [PHP_INT_MAX, []];

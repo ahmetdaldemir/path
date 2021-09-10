@@ -1,0 +1,3 @@
+<?php //Sensio%255CBundle%255CFrameworkExtraBundle%255CSensioFrameworkExtraBundle
+
+return [PHP_INT_MAX, []];
