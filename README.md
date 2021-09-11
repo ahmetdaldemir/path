@@ -3,8 +3,7 @@
 ## Installation
 
 * Download the repo
-* Create an .env file based on .env.example in the downloaded project folder
-* Enter database credentials in env file
+* Create an .env file
 * Run `composer install` to install the project dependencies
 * Run `php bin/console doctrine:database:create`
 * Run `php bin/console doctrine:schema:create`
